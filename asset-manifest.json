@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Stock-Listings/static/css/main.e6c13ad2.css",
+    "main.js": "/Stock-Listings/static/js/main.ab28d227.js",
+    "index.html": "/Stock-Listings/index.html",
+    "main.e6c13ad2.css.map": "/Stock-Listings/static/css/main.e6c13ad2.css.map",
+    "main.ab28d227.js.map": "/Stock-Listings/static/js/main.ab28d227.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ab28d227.js"
+  ]
+}
