@@ -1,0 +1,602 @@
+[
+  {
+    "symbol": "A",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 3.510407860734545
+  },
+  {
+    "symbol": "AA",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -23.86727992597587
+  },
+  {
+    "symbol": "AAA",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -37.78456249516875
+  },
+  {
+    "symbol": "AAAIF",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -3.6755917910555422
+  },
+  {
+    "symbol": "AAALY",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -8.050001022936925
+  },
+  {
+    "symbol": "AAAU",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 22.56385353113183
+  },
+  {
+    "symbol": "AABB",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 5.196551999086142
+  },
+  {
+    "symbol": "AABVF",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 21.49121644977866
+  },
+  {
+    "symbol": "AACAF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 1.143303943474831
+  },
+  {
+    "symbol": "AACAY",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 24.645229377431583
+  },
+  {
+    "symbol": "AACG",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -8.988103533149719
+  },
+  {
+    "symbol": "AACI",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -45.22875420226714
+  },
+  {
+    "symbol": "AACIU",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 28.683089870152674
+  },
+  {
+    "symbol": "AACIW",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -51.15377286621185
+  },
+  {
+    "symbol": "AACS",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -25.969556005505076
+  },
+  {
+    "symbol": "AACT",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -47.0951665520598
+  },
+  {
+    "symbol": "AACT.U",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -12.630375068427691
+  },
+  {
+    "symbol": "AACT.WS",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -20.154677422070904
+  },
+  {
+    "symbol": "AACTF",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -2.2330807110213033
+  },
+  {
+    "symbol": "AADI",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 29.518093061137485
+  },
+  {
+    "symbol": "AADR",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 29.214384551162993
+  },
+  {
+    "symbol": "AAEEF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -23.73511419386027
+  },
+  {
+    "symbol": "AAFRF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -58.90006956963636
+  },
+  {
+    "symbol": "AAGC",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -5.476239806442294
+  },
+  {
+    "symbol": "AAGFF",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 57.97872172278594
+  },
+  {
+    "symbol": "AAGH",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -0.8997519187011882
+  },
+  {
+    "symbol": "AAGIY",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -10.755340456196539
+  },
+  {
+    "symbol": "AAGR",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -17.716015301623603
+  },
+  {
+    "symbol": "AAGRW",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 0.95167413819722
+  },
+  {
+    "symbol": "AAGRY",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -7.959049817299098
+  },
+  {
+    "symbol": "AAHIF",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 25.84872665666526
+  },
+  {
+    "symbol": "AAIGF",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -7.119723228604717
+  },
+  {
+    "symbol": "AAIIQ",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -8.199449498865075
+  },
+  {
+    "symbol": "AAIN",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -30.849084016410856
+  },
+  {
+    "symbol": "AAIRF",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 15.67192251404201
+  },
+  {
+    "symbol": "AAL",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -54.732493909614135
+  },
+  {
+    "symbol": "AALBF",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -7.833269189297315
+  },
+  {
+    "symbol": "AAMAF",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -22.93959762568059
+  },
+  {
+    "symbol": "AAMC",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -26.252328638605896
+  },
+  {
+    "symbol": "AAME",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 30.768844779770486
+  },
+  {
+    "symbol": "AAMMF",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -1.7794613223310005
+  },
+  {
+    "symbol": "AAMTF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -36.780742556777945
+  },
+  {
+    "symbol": "AAN",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -30.899014805273467
+  },
+  {
+    "symbol": "AANNF",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -6.698185706999801
+  },
+  {
+    "symbol": "AAOI",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -3.542996273122696
+  },
+  {
+    "symbol": "AAON",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 4.838427768113955
+  },
+  {
+    "symbol": "AAP",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -28.803196420900676
+  },
+  {
+    "symbol": "AAPB",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -6.897534639956208
+  },
+  {
+    "symbol": "AAPD",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 41.62735073380344
+  },
+  {
+    "symbol": "AAPJ",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -4.458985492729843
+  },
+  {
+    "symbol": "AAPL",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 16.74897281800171
+  },
+  {
+    "symbol": "AAPT",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 29.02381044219008
+  },
+  {
+    "symbol": "AAPU",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -25.680691224140233
+  },
+  {
+    "symbol": "AAPY",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 3.463299443561059
+  },
+  {
+    "symbol": "AAQL",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -33.54033584555127
+  },
+  {
+    "symbol": "AARTY",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -58.641202677947206
+  },
+  {
+    "symbol": "AASCF",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -22.7194766736415
+  },
+  {
+    "symbol": "AASP",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 23.09981486430536
+  },
+  {
+    "symbol": "AASZF",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -7.558317876439093
+  },
+  {
+    "symbol": "AAT",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -3.9849313715750454
+  },
+  {
+    "symbol": "AATC",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -2.909965567314485
+  },
+  {
+    "symbol": "AATGF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -0.22270622555540065
+  },
+  {
+    "symbol": "AATRL",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 28.23146726343982
+  },
+  {
+    "symbol": "AATV",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 9.972148580543978
+  },
+  {
+    "symbol": "AAU",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -30.915158371638242
+  },
+  {
+    "symbol": "AAUCF",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 53.727876037206656
+  },
+  {
+    "symbol": "AAUGF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 16.713523123759575
+  },
+  {
+    "symbol": "AAUKF",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -5.616913861432073
+  },
+  {
+    "symbol": "AAVMY",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -18.297487456406852
+  },
+  {
+    "symbol": "AAVVF",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 4.438483173474915
+  },
+  {
+    "symbol": "AAVXF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 40.45000608538409
+  },
+  {
+    "symbol": "AAWH",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 10.891443289814996
+  },
+  {
+    "symbol": "AAXJ",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -52.93219104214937
+  },
+  {
+    "symbol": "AAXT",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -18.08016796222866
+  },
+  {
+    "symbol": "AAYYY",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 12.114424417019045
+  },
+  {
+    "symbol": "AB",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -17.746038699358905
+  },
+  {
+    "symbol": "ABAKF",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -12.799523519453953
+  },
+  {
+    "symbol": "ABANF",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 23.813672086254606
+  },
+  {
+    "symbol": "ABAT",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 30.35385226211774
+  },
+  {
+    "symbol": "ABAUF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -17.60219724219339
+  },
+  {
+    "symbol": "ABBAF",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -20.548121370140795
+  },
+  {
+    "symbol": "ABBB",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 16.275874614640728
+  },
+  {
+    "symbol": "ABBNY",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 2.307189523259707
+  },
+  {
+    "symbol": "ABBRF",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -24.658200293640224
+  },
+  {
+    "symbol": "ABBV",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 13.401052287058693
+  },
+  {
+    "symbol": "ABBY",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 19.423464675392708
+  },
+  {
+    "symbol": "ABCAF",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -10.717341347972482
+  },
+  {
+    "symbol": "ABCB",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 7.697661205652505
+  },
+  {
+    "symbol": "ABCCF",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -68.23920698582558
+  },
+  {
+    "symbol": "ABCE",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -49.392821736008884
+  },
+  {
+    "symbol": "ABCFF",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 12.717771330066794
+  },
+  {
+    "symbol": "ABCGF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -22.945869123849388
+  },
+  {
+    "symbol": "ABCL",
+    "refreshInterval": 3000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -8.465822545957536
+  },
+  {
+    "symbol": "ABCP",
+    "refreshInterval": 5000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 5.513097253899188
+  },
+  {
+    "symbol": "ABCS",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -5.978646930941457
+  },
+  {
+    "symbol": "ABCZF",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 25.036587552362274
+  },
+  {
+    "symbol": "ABDBY",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 6.952069920609549
+  },
+  {
+    "symbol": "ABDDF",
+    "refreshInterval": 4000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 21.35219594861563
+  },
+  {
+    "symbol": "ABDXF",
+    "refreshInterval": 2000,
+    "lastUpdated": 1704646405470,
+    "openPrice": -8.83045464408155
+  },
+  {
+    "symbol": "ABENU",
+    "refreshInterval": 1000,
+    "lastUpdated": 1704646405470,
+    "openPrice": 31.805772203153712
+  }
+]
