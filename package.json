@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://Utkarsh3367676.github.io/Stock-Listings",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,5 +17,8 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
