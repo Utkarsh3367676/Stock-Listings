@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage":"https://Utkarsh3367676.github.io/Stock-Listings",
+  "homepage": "https://Utkarsh3367676.github.io/Stock-Listings",
   "eslintConfig": {
     "extends": [
       "react-app",
