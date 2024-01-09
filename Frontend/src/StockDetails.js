@@ -7,11 +7,12 @@ import * as styles from './styles';
 function StockDetails() {
   const [numStocks, setNumStocks] = useState(0);
   const [stocks, setStocks] = useState([]);
+  axios.defaults.withCredentials = true;
 
   useEffect(() => {
     const fetchStockData = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/stocks?limit=${numStocks}`);
+        const response = await axios.get(`https://stock-listings.vercel.app/api/stocks?limit=${numStocks}`);
 
         setStocks(response.data);
       } catch (error) {
