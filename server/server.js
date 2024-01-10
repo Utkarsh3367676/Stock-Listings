@@ -4,30 +4,70 @@ const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
 
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Allow requests from the specified origin
-const allowedOrigins = [
-  'https://stock-listings-frontend.vercel.app',
-  // Add other origins if needed
-];
+app.use(cors(
+  {
+    origin: [https://stock-listings-frontend.vercel.app],
+    methods:["POST","GET"],
+    credentials:true
+  }
+));
 
-const corsOptions = {
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
+ app.use(function (req, res, next) {
+    //Enabling CORS
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, 
+    Accept, x-client-key, x-client-token, x-client-secret, Authorization");
+      next();
+    });
+
+const polygonApiKey = 'QlOE7feVp6mhdVa4sovHtWyAhpB3BIAb';
+const stocksFile = path.join(__dirname, 'stocks.json');
+
+// Helper function to generate a random number between min and max (inclusive)
+const getRandomInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min) * 1000;
+
+// Function to fetch the list of 20 stocks and their open prices from Polygon API
+const fetchStockList = async () => {
+  try {
+    if (!fs.existsSync(stocksFile)) {
+      // Create an empty file if it doesn't exist
+      console.log('File does not exist. Creating an empty file:', stocksFile);
+      fs.writeFileSync(stocksFile, '[]');
     }
-  },
-  methods: ["GET"],
-  credentials: true,
+
+    const response = await axios.get(`https://api.polygon.io/v3/reference/tickers?sort=ticker&perpage=20&page=1&apiKey=${polygonApiKey}`);
+    const stocks = response.data.results.map(stock => ({
+      symbol: stock.ticker,
+      openPrice: stock.open,
+      refreshInterval: getRandomInterval(1, 5),
+      lastUpdated: Date.now(),
+    }));
+    fs.writeFileSync(stocksFile, JSON.stringify(stocks, null, 2));
+  } catch (error) {
+    console.error(error);
+  }
 };
 
-app.use(cors(corsOptions));
-
-// Rest of your existing CORS middleware and route handling...
+// Function to update stock prices at random intervals
+const updateStockPrices = () => {
+  setInterval(() => {
+    try {
+      const stocks = JSON.parse(fs.readFileSync(stocksFile, 'utf-8'));
+      stocks.forEach(stock => {
+        stock.lastUpdated = Date.now();
+        stock.openPrice += (Math.random() * 10 - 5); // Random price update
+      });
+      fs.writeFileSync(stocksFile, JSON.stringify(stocks, null, 2));
+    } catch (error) {
+      console.error(error);
+    }
+  }, 1000); // Run every second
+};
 
 // Expose an API to fetch stock prices
 app.get('/api/stocks', (req, res) => {
@@ -38,7 +78,9 @@ app.get('/api/stocks', (req, res) => {
     console.error(error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
-});
+})
+
+
 
 // Run the initial setup to fetch stock list and start updating prices
 fetchStockList();
@@ -46,4 +88,4 @@ updateStockPrices();
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
-});
+})
