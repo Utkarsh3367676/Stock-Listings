@@ -71,6 +71,7 @@ const updateStockPrices = () => {
 
 // Expose an API to fetch stock prices
 app.get('/api/stocks', (req, res) => {
+    console.log('Incoming request to /api/stocks', req.query);
   try {
     const stocks = JSON.parse(fs.readFileSync(stocksFile, 'utf-8'));
     res.json(stocks);
